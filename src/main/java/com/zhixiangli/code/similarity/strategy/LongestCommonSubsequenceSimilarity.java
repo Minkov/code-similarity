@@ -57,6 +57,7 @@ public class LongestCommonSubsequenceSimilarity implements SimilarityAlgorithm {
                 }
             }
         }
+
         return dp[aLength][bLength];
     }
 }
